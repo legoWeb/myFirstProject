@@ -1,0 +1,57 @@
+.container{
+	width: 450px;
+	height: 450px;
+	background-color: #58F730;
+	border-radius: 20px 20px 20px 20px;
+	margin: auto auto 200px auto;
+	text-align: center;
+} 
+
+input[type = "text"],input[type = "password"]{
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+	margin-bottom: px;
+	padding-left: 10px;
+	border-radius: 5px 5px 5px 5px;
+	margin-top: 35px;
+}
+.dws-submit{
+	width: 300px;
+	height: 50px;
+	padding: 13px 30px;
+	margin: 35px 0px 0px 0px ;
+	font-size: 18px;
+	color: #F2F7ED;
+	background-color: #F75022;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.dws-submit:hover{
+	transition: all 0.5s;
+    background: #58F730;
+	color: #1D41F7;
+}
+.dws-input::before{
+	font-family: "FontAwesone";
+    content: "\007"
+	position: absolute;	
+}
+.avtor{
+	border-radius: 20px 20px 0px 0px;
+	height: 75px;
+	background-color: #3258FF;
+	color: #FAFFFB;
+	padding: 10px;
+	text-align: center;
+}
+.registration{
+	height: 75px;
+	background-color: #FFEBF6;
+	margin: 35px 0px 0px 0px;
+	border-radius: 0px 0px 20px 20px;
+	text-align: center;
+
+}
